@@ -1,0 +1,71 @@
+.div{
+    width: 220px;
+    height: 120vh;
+  
+    padding: 8px;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.filter a{
+    text-decoration: none;
+}
+.text{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+.list li:hover{
+   text-decoration: line-through;
+   cursor: pointer;
+    
+}
+.list li{
+    width: 140px;
+    list-style-type: none;
+    height: 35px;
+    background: #dadada;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gen{
+    margin-top: 10px;
+}
+.gen li{
+    list-style-type: none;
+}
+.p{
+    display: flex;
+}
+.c{
+    justify-content: space-between;
+}
+.c h3{
+    font-size: 14px;
+    margin-top: 3px;
+}
+.c h5{
+    font-size: 14px;
+    color: #388e3c;
+}
+.c p span{
+    color: #999;
+    font-size: 14px;
+    text-decoration: line-through;
+}

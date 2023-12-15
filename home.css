@@ -1,0 +1,157 @@
+.navbar{
+    background: #2874F0;
+    height: 56px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.img a{
+    text-decoration: none;
+    font-size: 11px;
+}
+.Plus{
+    color: #ffe500;
+}
+.input{
+    width: 480px;
+    height: 36px;
+    position: relative;
+    
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    border: none;
+        border-radius: 2px 0 0 2px;
+}
+.icon{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.icon i{
+    color: #2874F0;
+}
+.nav-button{
+    width: 121px;
+    height: 31px;
+    border: none;
+    background: #ffffff;
+    color: #2874F0;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 18px;
+    cursor: pointer;
+     border-radius: 2px;
+    border: 1px solid #dbdbdb;
+}
+.list{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 25px;
+}
+.list a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.icons .cart{
+    font-size: 18px;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+  
+}
+.header li{
+    list-style-type: none;
+
+}
+.header a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header li .dropdown-menu{
+    height: 80vh;
+    
+  
+}
+.header li .dropdown-menu li{
+    width: 180px;
+}
+.flight{
+    color: #000;
+}
+.offer{
+    color: #000;
+}
+.sale{
+    font-size:larger;
+}
+
+.navbar-toggler-icon{
+    color: #ffffff;
+    background-color: #ffffff;
+}
+.fashion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+
+   
+}
+.fashion h1{
+    font-size: 22px;
+}
+.fashion button{
+    width: 96px ;
+    height: 38px;
+    border: none;
+    background: #2874F0;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+.pro{
+    text-align: center;
+    cursor: pointer;
+}
+.pro h3{
+        font-size: 14px;
+            font-weight: 500;
+            margin-top: 15px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+hr{
+    color: #999;
+}
+.pro h5{
+        color: #388e3c;
+            padding-top: 8px;
+            font-size: 14px;
+}
+.pro p{
+        opacity: .6;
+            padding-top: 7px;
+            font-size: 14px;
+}
+@media (max-width:750px) {
+    .header{
+        display: none;
+    }
+    
+}
